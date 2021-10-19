@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "workbench.colorTheme": "Dracula",
+    "workbench.iconTheme" : "vscode-icons",
+    "typescript.tsserver.watchOptions": { }
+}
