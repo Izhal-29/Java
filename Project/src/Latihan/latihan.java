@@ -1,6 +1,6 @@
 package Latihan;
 
-import java.util.Scanner;//Scanner ( * )
+import java.util.*;//Scanner ( * )
 //saya mau mengambil sebuah library scanner yang ada dalam foldel utlity yang bernama scanner
 
 public class latihan {

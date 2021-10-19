@@ -1,7 +1,5 @@
 package Latihan;
 
-import javax.swing.plaf.synth.SynthLookAndFeel;
-
 public class Looping {
   public static void main(String[] args){
 
