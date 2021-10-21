@@ -1,7 +1,7 @@
 package Latihan;
 
 import java.util.*;//Scanner ( * )
-//saya mau mengambil sebuah library scanner yang ada dalam foldel utlity yang bernama scanner
+//saya mau mengambil sebuah library scanner yang ada dalam folder utility yang bernama scanner
 
 public class latihan {
   public static void main(String[] args) {
@@ -87,5 +87,58 @@ public class latihan {
 
     return hasil;
     */
+    Scanner userInput = new Scanner (System.in);
+
+    //while (true) {
+      System.out.print("Panjang = ");
+      int InputPanjang = userInput.nextInt();
+      System.out.print("Lebar = ");
+      int InputLebar = userInput.nextInt();
+
+      // memanggil fungsi Gambar
+      gambar(InputPanjang, InputLebar);
+
+      int luas = InputLebar * InputPanjang;
+      System.out.println("Luas = " + luas(InputPanjang, InputLebar));
+
+      int keliling = (InputPanjang + InputLebar) * 2;
+      System.out.println("Keliling = " + keliling(InputPanjang, InputLebar));
+
+      //memanggil fungsi tampilkanKelilingDanLuas
+      tampilkanKelilingDanLuas(InputPanjang, InputLebar);
+   // }
   }
+
+
+  // fungsi memanggil fungsi
+  private static void tampilkanKelilingDanLuas(int panjang, int lebar) {
+    System.out.println("\n");
+    System.out.println("Ini adalah fungsi memanggil fungsi");
+    System.out.println("Luas = " + luas(panjang, lebar));
+    System.out.println("Keliling = " + keliling(panjang, lebar));
+  }
+
+  //fungsi Keliling
+  private static int keliling(int panjang, int lebar) {
+    int hasil = (panjang+lebar)*2;
+    return hasil;
+  }
+
+  //fungsi luas
+  private static int luas(int panjang, int lebar) {
+    int hasil = panjang*lebar;
+    return hasil;
+  }
+
+  //fungsi gambar
+  public static void gambar(int panjang, int lebar){
+    System.out.println("ini adalah fungsi gambar");
+    for (int i = 0; i < lebar; i++){
+      for (int j = 0; j < panjang; j++){
+        System.out.print("* ");
+      }
+    System.out.print("\n");
+    }
+  }
+  
 }
