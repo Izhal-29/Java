@@ -1,1 +1,1 @@
-Latihan Pemograman Java
+Pemograman Java

@@ -433,9 +433,5 @@ public class Operator {
     y = (z == 10) ? (z*z) : (z/2);
 
     System.out.println("hasil Y : " + y);
-
-
-
-    
   }
 }
