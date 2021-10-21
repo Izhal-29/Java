@@ -53,7 +53,13 @@ public class latihan {
     System.out.println("Nilai y = " + y);
     */
 
+    //Fungsi Atau Method
+    //mendefenisikan sebuah persamaan/perhitungan atau apapun itu senhingga kita bisa memangggilnya berulang-ulang
+
+    //System.out.println("\n\n\n");
     /*
+    System.out.println("Fungsi atau Method");
+  
     //y = x + 2 = x
     int y,x;
     x = 5;
@@ -72,7 +78,7 @@ public class latihan {
     System.out.println("x = " + x + ", y = " + y);
     
   }
-
+  
   static int hitung (int input){
     int hasil;
     
